@@ -21,7 +21,7 @@ function descargaArchivo() {
 
         var objeto = JSON.parse(peticion_http.responseText);
         console.log(objeto.color)
-
+        console.log(peticion_http)
 
 
         var body = document.querySelector("body");
